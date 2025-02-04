@@ -57,7 +57,7 @@ class ArgumentParser(argparse.ArgumentParser):
             k['parents'] = defaults()
         super().__init__(*args, **k, epilog=f'Built on the beehive library.')
         if 'L' in flags:
-            self.add_argument('--L', type=int, nargs=2, default=(1,1), help='Two positive integers setting the honeycomb size')
+            self.add_argument('--L', type=int, nargs=2, default=(1,1), help='Two positive integers setting the lattice size')
         if 'U' in flags:
             self.add_argument('--U', type=float, default=1.0, help='Interaction strength')
         if 'beta' in flags:

@@ -79,7 +79,8 @@ if __name__ == '__main__':
     parser.add_argument('--pdf', type=str, default='')
     args = parser.parse_args()
 
-    lattice = beehive.Honeycomb(*args.L) # Instantiate the lattice
+    # lattice = beehive.Honeycomb(*args.L) # Instantiate the lattice
+    lattice = beehive.Square(*args.L) # Instantiate the lattice
     hubbard = beehive.Hubbard(lattice, args.U) # Instantiate the Hubbard model
 
     Z = beehive.PartitionFunction(hubbard, args.beta, args.nt) # Instantiate the partition function
