@@ -20,10 +20,13 @@ authors:
     orcid: 'https://orcid.org/0000-0003-1082-1374'
     email: evan.berkowitz@uvi.edu
     affiliation: >-
-      Institute for Advanced Simulation (IAS-4), Jülich
-      Supercomputing Centre (JSC) and Center for Advanced
-      Simulation and Analytics (CASA), Forschungszentrum
-      Jülich
+      Institute for Advanced Simulation (IAS-4), 
+      Jülich Supercomputing Centre (JSC),
+      Center for Advanced Simulation and Analytics (CASA),
+      Forschungszentrum Jülich;
+      Department of Chemical and Physical Sciences,
+      College of Science and Mathematics,
+      University of the Virgin Islands
 repository-code: >-
   https://github.com/petio9671/Correlators-Exact-Diagonalization
 abstract: >-
