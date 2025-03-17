@@ -1,0 +1,43 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Correlators Exact Diagonalization (beehive)
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Petar
+    family-names: Sinilkov
+    email: p.sinilkov@gmail.com
+    orcid: 'https://orcid.org/0009-0000-8163-5195'
+    affiliation: >-
+      Institute for Advanced Simulation (IAS-4),
+      Forschungszentrum Jülich
+  - given-names: Evan
+    family-names: Berkowitz
+    orcid: 'https://orcid.org/0000-0003-1082-1374'
+    email: evan.berkowitz@uvi.edu
+    affiliation: >-
+      Institute for Advanced Simulation (IAS-4), Jülich
+      Supercomputing Centre (JSC) and Center for Advanced
+      Simulation and Analytics (CASA), Forschungszentrum
+      Jülich
+repository-code: >-
+  https://github.com/petio9671/Correlators-Exact-Diagonalization
+abstract: >-
+  This package called `beehive` implements the exact
+  solution of the Hubbard model on a honeycomb lattice. It
+  currently handles only the Hubbard model and a honeycomb
+  lattice but it can and will be expanded to other systems
+  and models in the future.
+keywords:
+  - beehive
+  - Hubbard model
+  - Exact diagonalizaiton
+  - Custom lattices
+  - Custom models
+  - Codensed matter
+  - Correlation functions
+license: GPL-3.0
