@@ -1,4 +1,4 @@
-# Correlators Exact Diagonalization
+# Correlators Exact Diagonalization [![DOI](https://zenodo.org/badge/857338530.svg)](https://doi.org/10.5281/zenodo.15045126)
 
 This package called `beehive` implements the exact solution of the Hubbard model on a honeycomb lattice. 
 It currently handles only the Hubbard model and a honeycomb lattice but it can and will be expanded to other systems and models in the future.
