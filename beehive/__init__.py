@@ -7,6 +7,7 @@ sparse_array = scipy.sparse.csc_array
 
 
 from beehive.honeycomb import Honeycomb
+from beehive.square import Square
 from beehive.hubbard import Hubbard
 from beehive.partition import PartitionFunction
 import beehive.cli

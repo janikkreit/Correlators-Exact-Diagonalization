@@ -157,7 +157,8 @@ if __name__ == '__main__':
     args.Spin = (args.Spin[0], args.Spin[1])
     args.Isospin = (args.Isospin[0], args.Isospin[1])
 
-    lattice = beehive.Honeycomb(*args.L) # Instantiate the lattice
+    # lattice = beehive.Honeycomb(*args.L) # Instantiate the lattice
+    lattice = beehive.Square(*args.L) # Instantiate the lattice
     hubbard = beehive.Hubbard(lattice, args.U) # Instantiate the model
 
     Z = beehive.PartitionFunction(hubbard, args.beta, args.nt) # Instantiate the partition function
@@ -165,6 +166,8 @@ if __name__ == '__main__':
 
     totalMomentum = lattice.momenta[args.momentum]
     C = two_body_correlator(Z, args.Spin, args.Isospin, totalMomentum) # Calculate the two-body correlation matrix
+    for p, k in lattice.momentum_pairs_totaling(totalMomentum):
+        print(f"First and second momenta {p}, {k}")
 
     # Plot the correlator matrix
     with PDF(args.pdf) as pdf:

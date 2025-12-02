@@ -15,7 +15,8 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    lattice = beehive.Honeycomb(*args.L)
+    # lattice = beehive.Honeycomb(*args.L)
+    lattice = beehive.Square(*args.L)
     print(lattice)
 
     if args.bz:
