@@ -19,6 +19,3 @@ install_requires = [
 py-modules = [
     "beehive",
 ]
-
-[tool.setuptools.dynamic]
-dependencies = { file = ["requirements.txt"] }
